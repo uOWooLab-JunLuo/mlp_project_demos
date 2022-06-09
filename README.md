@@ -14,7 +14,7 @@ A [**SCRIPT**](batch_generation.py) for generating the graphs in parallel (utliz
 
 To date, our best models are trained using the [CatBoost](https://catboost.ai/) library (a variant of gradient boosted decision trees). A [PREVIEW](https://github.com/uOWooLab-JunLuo/milar-preview) of the models are available here. The following table shows the results.
 
-| Element (Group) | R2 score | MAE | RMSE |
+| Element (Group) | MAE | RMSE | R2 |
 | :----: | :----: | :----: | :----: |
 | C | 0.049 | 0.077 | 0.95 |
 | H | 0.017 | 0.029 | 0.88 |
