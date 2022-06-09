@@ -1,14 +1,18 @@
-# A quick demo of generating graphs from MOF structures
+# Generating Graphs from MOF Structures
 
 This is a quick demo of how to generate a graph from a MOF structure (a ".cif" file).
 
-## How to use
+## How it works
 
-Please read through the fully documented `mof_graph.ipynb` Jupyter Notebook in this repo (either online via Github or locally when downloaded). Copy code snippets and write your own code that suits your needs. Clone this repo if necessary.
+Please read through the fully documented [**DEMO**](demo.ipynb) Jupyter Notebook in this repo (either online via Github or locally when downloaded).
+
+## Batch generation
+
+A [**SCRIPT**](batch_generation.py) for generating the graphs in parallel (utlizing pyhton's multiprocessing) is included in this repo. Please modify `n_procs`, `src_path`, `dst_path` before use. Exceptions may occured and is not dealt with in this script; if raised, just skip the generation for that structure.
 
 ## Scores to beat
 
-With our hand-crafted descriptors/features and fully connected neural networks (FCNNs), these are the lastest results of our test sets. Note that we categorized our data into elements or element groups to train our FCNNs (i.e. each element has its own FCNNs).
+To date, our best models are trained using the [CatBoost](https://catboost.ai/) library (a variant of gradient boosted decision trees). A [PREVIEW](https://github.com/uOWooLab-JunLuo/milar-preview) of the models are available here. The following table shows the results.
 
 | Element (Group) | R2 score | MAE | RMSE |
 | :----: | :----: | :----: | :----: |
