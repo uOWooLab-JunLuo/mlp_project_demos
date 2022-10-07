@@ -37,3 +37,10 @@ Elements not listed above are included in Others*.
 ## GNN
 
 https://github.com/Total-RD/GNN-ACO2RD/tree/GAT
+
+## ARC-MOF
+
+https://zenodo.org/record/6908728#.YzNXIHb0mbg
+
+
+
