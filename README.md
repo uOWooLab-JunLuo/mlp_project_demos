@@ -33,3 +33,7 @@ To date, our best models are trained using the [CatBoost](https://catboost.ai/) 
 | Others | 0.062 | 0.123 | 0.93 |
 
 Elements not listed above are included in Others*.
+
+## GNN
+
+https://github.com/Total-RD/GNN-ACO2RD/tree/GAT
